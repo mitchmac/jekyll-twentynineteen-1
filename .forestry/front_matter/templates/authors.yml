@@ -1,4 +1,26 @@
 ---
 label: Authors
 hide_body: true
-fields: []
+fields:
+- name: authors
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: biography
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Biography
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Authors
