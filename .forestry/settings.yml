@@ -7,7 +7,6 @@ sections:
 - type: document
   path: authors.toml
   label: Authors
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all

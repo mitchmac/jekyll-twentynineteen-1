@@ -24,3 +24,5 @@ fields:
     max: 
     labelField: 
   label: Authors
+pages:
+- authors.toml
